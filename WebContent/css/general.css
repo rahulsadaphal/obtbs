@@ -1,0 +1,49 @@
+h2 {
+  margin: 0 0 20px;
+  color: #5be5f9;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  }
+input[type="text"],input[type="password"],input[type="date"],select {
+  outline: none;
+  display:inline-block;
+  width: 100%;
+  border: 1px solid #5be5f9;
+  margin: 0 0 10px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+input[type="text"]:focus,input[type="date"]:focus input[type="password"]:focus, select:focus {
+  border: 1px solid #5be5f9;
+  color: #5be5f9;
+  background:#666666;
+}
+input[type="text"]:hover, input[type="password"]:hover,input[type="date"]:hover, select:hover {
+  border: 1px solid #5be5f9;
+  color: #5be5f9;
+}
+input[type="password"]:hover  {
+  border: 1px solid #5be5f9;
+  color: #5be5f9;
+}
+input[type="button"],input[type="reset"],input[type="submit"] {
+  cursor: pointer;
+  background: #5be5f9;
+  width: 100%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  margin: 5px 5px 5px 0px;
+}
+input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover {
+  background: #666666;
+  border: 1px solid #5be5f9;
+  color: #5be5f9;
+}
+input[type="radio"]{
+	overflow:hidden;
+	inline-block:1;
+	margin: 0 0 10px 20px;
+    text-color:#5be5f9;
+}
